@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.otpactivity" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OtpActivity" >
+        <activity
+            android:name=".BikerhomeActivity"
+            android:label="@string/title_activity_bikerhome"
+            android:theme="@style/Theme.OtpActivity.NoActionBar" >
+        </activity>
+        <activity android:name=".c_dashboard" />
+        <activity
+            android:name=".C_dasboard"
+            android:label="@string/title_activity_c_dasboard"
+            android:theme="@style/Theme.OtpActivity.NoActionBar" />
+        <activity android:name=".C_dashboard" />
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
